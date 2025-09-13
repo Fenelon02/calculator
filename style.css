@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgb(243, 243, 243);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    height: 700px;
+    width: 500px;
+    background-color: rgb(254, 255, 234);
+    border-radius: 30px;
+    box-shadow: 10px 10px 50px rgb(213, 213, 213);
+}
+
+/* the screen */
+.screenCalc{
+    height: 40px;
+    width: 360px;
+    background-color: rgb(81, 121, 81);
+    margin: 50px 50px 0px 50px;
+    border-radius: 30px;
+    font-size: 30px;
+    color: white;
+    text-align:right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 120px 20px 20px 20px;
+    overflow: hidden;
+}
+
+
+/* buttons */
+.buttonsBox{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxGrid{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+}
+
+.num, .num button{
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    border-radius: 50%;
+    border: 0px solid transparent;
+    font-size: 30px;
+}
+
+.op, .op button{
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    border: 0px solid transparent;
+    font-size: 30px;
+}
+
+
+
