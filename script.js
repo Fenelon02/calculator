@@ -3,7 +3,7 @@ const screen = document.getElementById("equation")
 
 btn.forEach(element => element.addEventListener("click", () => addValue(element.value)))
 
-document.addEventListener("keypress", (event) => {
+document.addEventListener("keydown", (event) => {
     addValue(event.key)
 })
 
